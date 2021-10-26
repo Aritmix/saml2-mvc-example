@@ -161,7 +161,6 @@ namespace Saml
 		public string GetUserType()
 		{
 			return GetCustomAttribute("Title");
-
 		}
 
 		public virtual string GetPhoneNumber()
